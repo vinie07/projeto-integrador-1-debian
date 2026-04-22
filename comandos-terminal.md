@@ -151,6 +151,8 @@ hwinfo             # detalhes completos de hardware
 py-cpuinfo         # informações da CPU via Python
 lsusb              # dispositivos USB conectados
 lspci              # dispositivos PCI
+hardinfo           # ⭐ interface grafica geral com benchmark
+
 ```
 
 ---
