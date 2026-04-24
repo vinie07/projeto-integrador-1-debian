@@ -1,0 +1,18 @@
+1:	lo
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1
+	inet6 ff01::1
+2:	enp0s3
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:c5:ea:56
+	link  33:33:00:00:00:fb
+	link  01:00:5e:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffc5:ea56
+	inet6 ff02::1
+	inet6 ff01::1

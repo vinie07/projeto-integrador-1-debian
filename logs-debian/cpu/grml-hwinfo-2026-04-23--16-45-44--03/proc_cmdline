@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-6.12.73+deb13-amd64 root=UUID=9fa9c2e4-c394-472b-8d19-e282726b1b8d ro quiet

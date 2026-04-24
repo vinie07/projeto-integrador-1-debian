@@ -1,0 +1,11 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.1700206165)
+
+5 files, 1048576Kb each, 5120Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+5368709120 bytes written in 5.29 seconds (968.25 MiB/sec).

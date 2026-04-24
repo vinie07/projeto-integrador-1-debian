@@ -1,0 +1,16 @@
+parted -s /dev/sda:
+
+Model: ATA VBOX HARDDISK (scsi)
+Disk /dev/sda: 42.9GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags: 
+
+Number  Start   End     Size    Type     File system     Flags
+ 1      1049kB  25.0GB  25.0GB  primary  ext4            boot
+ 2      25.0GB  40.0GB  15.0GB  primary  ext4
+ 3      40.0GB  42.9GB  2949MB  primary  linux-swap(v1)  swap
+
+
+
+

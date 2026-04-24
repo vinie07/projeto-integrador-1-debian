@@ -1,0 +1,47 @@
+        _,met$$$$$gg.
+     ,g$$$$$$$$$$$$$$$P.
+   ,g$$P""       """Y$$.".
+  ,$$P'              `$$$.
+',$$P       ,ggs.     `$$b:
+`d$$'     ,"'   .    $$$
+ $$P      d     ,    $$P
+ $$:      $   -    ,d$$'
+ $$;      Y._   _,d'
+ Y$$.    `.`"Y$$$$P"'
+ `$$b      "-.__
+  `Y$$b
+   `Y$$.
+     `$$b.
+       `Y$$b.
+         `"Y$b._
+             `""""[1G[16A[31Cvinicius@debian-vini
+[31C--------------------
+[31COS: Debian GNU/Linux 13 (trixie) x86_64
+[31CHost: VirtualBox (1.2)
+[31CKernel: Linux 6.12.73+deb13-amd64
+[31CUptime: 2 hours, 18 mins
+[31CPackages: 2793 (dpkg)
+[31CShell: bash 5.2.37
+[31CDisplay (Virtual1): 960x942 @ 60 Hz
+[31CDE: Cinnamon 6.4.10
+[31CWM: Muffin (X11)
+[31CWM Theme: cinnamon (Default)
+[31CTheme: Adwaita [GTK2/3/4]
+[31CIcons: gnome [GTK2/3/4]
+[31CFont: Sans (9pt) [GTK2/3/4]
+[31CCursor: Adwaita (24px)
+[31CTerminal: GNOME Terminal 3.56.2
+[31CTerminal Font: Monospace (14pt)
+[31CCPU: 12th Gen Intel(R) Core(TM) i5-12450H (3) @ 2.50 GHz
+[31CGPU: VMware SVGA II Adapter
+[31CMemory: 1.39 GiB / 3.83 GiB (36%)
+[31CSwap: 84.63 MiB / 2.75 GiB (3%)
+[31CDisk (/): 11.08 GiB / 22.75 GiB (49%) - ext4
+[31CDisk (/home): 97.88 MiB / 13.65 GiB (1%) - ext4
+[31CDisk (/media/cdrom0): 51.05 MiB / 51.05 MiB (100%) - iso9660 [Read-only]
+[31CLocal IP (enp0s3): 10.0.2.15/24
+[31CBattery (1): 79% [AC Connected]
+[31CLocale: pt_BR.UTF-8
+[31C
+[31C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+[31C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m

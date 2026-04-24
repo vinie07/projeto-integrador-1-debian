@@ -1,0 +1,100 @@
+stress-ng: debug: [207989] invoked with 'stress-ng --cpu 0 --vm 2 --vm-bytes 512m --hdd 1 --io 4 --fork 8 --timeout 10s --metrics --times --perf --tz --verify -v' by user 1000 'vinicius'
+stress-ng: debug: [207989] stress-ng 0.19.02
+stress-ng: debug: [207989] system: Linux debian-vini 6.12.73+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.73-1 (2026-02-17) x86_64, gcc 14.2.0, glibc 2.41, little endian
+stress-ng: debug: [207989] RAM total: 3.8G, RAM free: 1.3G, swap free: 2.7G
+stress-ng: debug: [207989] temporary file path: '/home/vinicius/Área de trabalho/testes/benchmark', filesystem type: ext2 (3365735 blocks available, VBOX HARDDISK)
+stress-ng: debug: [207989] 3 processors online, 3 processors configured
+stress-ng: info:  [207989] setting to a 10 secs run per stressor
+stress-ng: debug: [207989] CPU data cache: L1: 48K, L2: 1280K, L3: 12288K
+stress-ng: debug: [207989] cache allocate: shared cache buffer size: 12288K
+stress-ng: info:  [207989] dispatching hogs: 3 cpu, 2 vm, 1 hdd, 4 io, 8 fork
+stress-ng: info:  [207989] note: /proc/sys/kernel/sched_autogroup_enabled is 1 and this can impact scheduling throughput for processes not attached to a tty. Setting this to 0 may improve performance metrics
+stress-ng: debug: [207989] starting stressors
+stress-ng: debug: [207990] cpu: [207990] started (instance 0 on CPU 2)
+stress-ng: debug: [207990] perf: perf_event_open failed, no perf events [207990]
+stress-ng: debug: [207991] cpu: [207991] started (instance 1 on CPU 1)
+stress-ng: debug: [207992] cpu: [207992] started (instance 2 on CPU 2)
+stress-ng: debug: [207993] vm: [207993] started (instance 0 on CPU 1)
+stress-ng: debug: [207994] vm: [207994] started (instance 1 on CPU 2)
+stress-ng: debug: [207995] hdd: [207995] started (instance 0 on CPU 1)
+stress-ng: debug: [207996] io: [207996] started (instance 0 on CPU 2)
+stress-ng: debug: [207997] io: [207997] started (instance 1 on CPU 1)
+stress-ng: debug: [207998] io: [207998] started (instance 2 on CPU 2)
+stress-ng: debug: [207999] io: [207999] started (instance 3 on CPU 0)
+stress-ng: debug: [207990] cpu: using method 'all'
+stress-ng: debug: [208000] fork: [208000] started (instance 0 on CPU 1)
+stress-ng: debug: [208001] fork: [208001] started (instance 1 on CPU 1)
+stress-ng: debug: [208002] fork: [208002] started (instance 2 on CPU 1)
+stress-ng: debug: [208004] fork: [208004] started (instance 4 on CPU 2)
+stress-ng: debug: [208003] fork: [208003] started (instance 3 on CPU 1)
+stress-ng: debug: [207989] 18 stressors started
+stress-ng: debug: [208007] fork: [208007] started (instance 7 on CPU 2)
+stress-ng: debug: [208005] fork: [208005] started (instance 5 on CPU 0)
+stress-ng: debug: [208006] fork: [208006] started (instance 6 on CPU 0)
+stress-ng: debug: [207993] vm: 1 setting:
+stress-ng: debug: [207993]  vm-bytes             512.0M 
+stress-ng: debug: [207993] vm: using method 'all'
+stress-ng: info:  [207993] vm: using 256M per stressor instance (total 512M of 1.30G available memory)
+stress-ng: info:  [207995] hdd: using 1G file system space per stressor instance (total 1G of 12.84G available file system space)
+stress-ng: info:  [207996] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: debug: [207996] io: [207996] exited (instance 0 on CPU 0)
+stress-ng: debug: [207998] io: [207998] exited (instance 2 on CPU 1)
+stress-ng: debug: [208007] fork: [208007] exited (instance 7 on CPU 0)
+stress-ng: debug: [208003] fork: [208003] exited (instance 3 on CPU 2)
+stress-ng: debug: [208004] fork: [208004] exited (instance 4 on CPU 0)
+stress-ng: debug: [208005] fork: [208005] exited (instance 5 on CPU 1)
+stress-ng: debug: [208000] fork: [208000] exited (instance 0 on CPU 2)
+stress-ng: debug: [208002] fork: [208002] exited (instance 2 on CPU 0)
+stress-ng: debug: [207991] cpu: [207991] exited (instance 1 on CPU 1)
+stress-ng: debug: [207992] cpu: [207992] exited (instance 2 on CPU 2)
+stress-ng: debug: [208001] fork: [208001] exited (instance 1 on CPU 2)
+stress-ng: debug: [208006] fork: [208006] exited (instance 6 on CPU 2)
+stress-ng: debug: [207990] cpu: [207990] exited (instance 0 on CPU 2)
+stress-ng: debug: [207989] cpu: [207990] terminated (success)
+stress-ng: debug: [207989] cpu: [207991] terminated (success)
+stress-ng: debug: [207989] cpu: [207992] terminated (success)
+stress-ng: debug: [207999] io: [207999] exited (instance 3 on CPU 1)
+stress-ng: debug: [207997] io: [207997] exited (instance 1 on CPU 1)
+stress-ng: debug: [207993] vm: [207993] exited (instance 0 on CPU 1)
+stress-ng: debug: [207989] vm: [207993] terminated (success)
+stress-ng: debug: [207994] vm: [207994] exited (instance 1 on CPU 2)
+stress-ng: debug: [207989] vm: [207994] terminated (success)
+stress-ng: debug: [207995] hdd: [207995] exited (instance 0 on CPU 1)
+stress-ng: debug: [207989] hdd: [207995] terminated (success)
+stress-ng: debug: [207989] io: [207996] terminated (success)
+stress-ng: debug: [207989] io: [207997] terminated (success)
+stress-ng: debug: [207989] io: [207998] terminated (success)
+stress-ng: debug: [207989] io: [207999] terminated (success)
+stress-ng: debug: [207989] fork: [208000] terminated (success)
+stress-ng: debug: [207989] fork: [208001] terminated (success)
+stress-ng: debug: [207989] fork: [208002] terminated (success)
+stress-ng: debug: [207989] fork: [208003] terminated (success)
+stress-ng: debug: [207989] fork: [208004] terminated (success)
+stress-ng: debug: [207989] fork: [208005] terminated (success)
+stress-ng: debug: [207989] fork: [208006] terminated (success)
+stress-ng: debug: [207989] fork: [208007] terminated (success)
+stress-ng: debug: [207989] metrics-check: all stressor metrics validated and sane
+stress-ng: metrc: [207989] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s CPU used per       RSS Max
+stress-ng: metrc: [207989]                           (secs)    (secs)    (secs)   (real time) (usr+sys time) instance (%)          (KB)
+stress-ng: metrc: [207989] cpu               16379     10.00      7.10      0.81      1637.20        2068.98        26.38          8380
+stress-ng: metrc: [207989] vm               746697     10.02      3.80      2.02     74511.78      128238.85        29.05        265284
+stress-ng: metrc: [207989] hdd               28806     10.06      0.52      0.70      2864.52       23495.56        12.19          3544
+stress-ng: metrc: [207989] io                 4568     10.00      0.02      0.31       456.69       13933.46         0.82          3584
+stress-ng: metrc: [207989] fork              43398     10.00      6.04      6.83      4341.26        3371.69        16.09          5632
+stress-ng: metrc: [207989] miscellaneous metrics:
+stress-ng: metrc: [207989] hdd                  116.06 MB/sec read rate (harmonic mean of 1 instance)
+stress-ng: metrc: [207989] hdd                  522.46 MB/sec write rate (harmonic mean of 1 instance)
+stress-ng: metrc: [207989] hdd                  208.15 MB/sec read/write combined rate (harmonic mean of 1 instance)
+stress-ng: info:  [207989] cannot read perf counters, do not have CAP_SYS_ADMIN capability or /proc/sys/kernel/perf_event_paranoid is set too high (3)
+stress-ng: info:  [207989] thermal zone temperatures not available
+stress-ng: info:  [207989] for a 10,06s run time:
+stress-ng: info:  [207989]      30,19s available CPU time
+stress-ng: info:  [207989]      17,49s user time   ( 57,94%)
+stress-ng: info:  [207989]      10,67s system time ( 35,35%)
+stress-ng: info:  [207989]      28,16s total time  ( 93,29%)
+stress-ng: info:  [207989] load average: 4,68 4,73 13,46
+stress-ng: info:  [207989] skipped: 0
+stress-ng: info:  [207989] passed: 18: cpu (3) vm (2) hdd (1) io (4) fork (8)
+stress-ng: info:  [207989] failed: 0
+stress-ng: info:  [207989] metrics untrustworthy: 0
+stress-ng: info:  [207989] successful run completed in 10,06 secs

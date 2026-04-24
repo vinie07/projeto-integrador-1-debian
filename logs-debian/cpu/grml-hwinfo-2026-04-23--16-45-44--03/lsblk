@@ -1,0 +1,6 @@
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS LABEL           PARTLABEL UUID                                 FSTYPE  SERIAL
+sda      8:0    0   40G  0 disk                                                                                    VBe65de71d-4585546b
+|-sda1   8:1    0 23.3G  0 part /                                     9fa9c2e4-c394-472b-8d19-e282726b1b8d ext4    
+|-sda2   8:2    0   14G  0 part /home                                 db04007c-184e-4fe4-9fe3-db50813e44bf ext4    
+`-sda3   8:3    0  2.7G  0 part [SWAP]                                cddf9ba8-58fe-43a8-8811-e834ae7753df swap    
+sr0     11:0    1   51M  0 rom              VBox_GAs_7.0.16           2024-04-12-17-58-47-24               iso9660 VB2-01700376

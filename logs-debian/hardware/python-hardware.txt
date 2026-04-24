@@ -1,0 +1,24 @@
+Python Version: 3.13.5.final.0 (64 bit)
+Cpuinfo Version: 9.0.0
+Vendor ID Raw: GenuineIntel
+Hardware Raw: 
+Brand Raw: 12th Gen Intel(R) Core(TM) i5-12450H
+Hz Advertised Friendly: 2.4960 GHz
+Hz Actual Friendly: 2.4960 GHz
+Hz Advertised: (2495998000, 0)
+Hz Actual: (2495998000, 0)
+Arch: X86_64
+Bits: 64
+Count: 3
+Arch String Raw: x86_64
+L1 Data Cache Size: 
+L1 Instruction Cache Size: 
+L2 Cache Size: 65536
+L2 Cache Line Size: 1280
+L2 Cache Associativity: 7
+L3 Cache Size: 12582912
+Stepping: 3
+Model: 154
+Family: 6
+Processor Type: 
+Flags: 3dnowprefetch, abm, aes, apic, arat, arch_capabilities, avx, avx2, bmi1, bmi2, clflush, clflushopt, cmov, constant_tsc, cpuid, cx16, cx8, de, ept, flexpriority, flush_l1d, fpu, fsgsbase, fxsr, ht, hypervisor, invpcid, lahf_lm, lm, mca, mce, md_clear, mmx, movbe, msr, mtrr, nonstop_tsc, nopl, nx, osxsave, pae, pat, pcid, pclmulqdq, pge, pni, popcnt, pse, pse36, pti, rdrand, rdrnd, rdseed, rdtscp, rep_good, sep, sse, sse2, sse4_1, sse4_2, ssse3, syscall, tpr_shadow, tsc, tsc_known_freq, vme, vmx, vnmi, vpid, x2apic, xsave, xtopology

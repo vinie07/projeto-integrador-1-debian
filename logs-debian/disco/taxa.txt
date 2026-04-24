@@ -1,0 +1,7 @@
+Linux 6.12.73+deb13-amd64 (debian-vini) 	23/04/2026 	_x86_64_	(3 CPU)
+
+      tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd Device
+    28,44       825,9k       451,2k         0,0k     943,0M     515,2M       0,0k sda
+     0,04         0,2k         0,0k         0,0k     192,0k       0,0k       0,0k sr0
+
+

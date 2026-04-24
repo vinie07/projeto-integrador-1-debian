@@ -1,0 +1,17 @@
+fdisk -lu /dev/sda:
+
+Disk /dev/sda: 40 GiB, 42949672960 bytes, 83886080 sectors
+Disk model: VBOX HARDDISK   
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x4cb6f77d
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048 48828415 48826368 23.3G 83 Linux
+/dev/sda2       48828416 78125055 29296640   14G 83 Linux
+/dev/sda3       78125056 83884031  5758976  2.7G 82 Linux swap / Solaris
+
+
+

@@ -1,0 +1,65 @@
+[
+{
+  "json_format_version": [
+    1,
+    0
+  ],
+  "smartctl": {
+    "version": [
+      7,
+      4
+    ],
+    "pre_release": false,
+    "svn_revision": "5530",
+    "platform_info": "x86_64-linux-6.12.73+deb13-amd64",
+    "build_info": "(local build)",
+    "argv": [
+      "smartctl",
+      "-x",
+      "-j",
+      "/dev/sda"
+    ],
+    "drive_database_version": {
+      "string": "7.3/5528"
+    },
+    "exit_status": 4
+  },
+  "local_time": {
+    "time_t": 1776973584,
+    "asctime": "Thu Apr 23 16:46:24 2026 -03"
+  },
+  "device": {
+    "name": "/dev/sda",
+    "info_name": "/dev/sda [SAT]",
+    "type": "sat",
+    "protocol": "ATA"
+  },
+  "model_name": "VBOX HARDDISK",
+  "serial_number": "VBe65de71d-4585546b",
+  "firmware_version": "1.0",
+  "user_capacity": {
+    "blocks": 83886080,
+    "bytes": 42949672960
+  },
+  "logical_block_size": 512,
+  "physical_block_size": 512,
+  "trim": {
+    "supported": false
+  },
+  "in_smartctl_database": false,
+  "ata_version": {
+    "string": "ATA/ATAPI-6 published, ANSI INCITS 361-2002",
+    "major_value": 126,
+    "minor_value": 34
+  },
+  "smart_support": {
+    "available": false
+  },
+  "read_lookahead": {
+    "enabled": true
+  },
+  "write_cache": {
+    "enabled": true
+  }
+}
+]
