@@ -93,18 +93,11 @@ time sudo apt install --reinstall <pacote>
 
 Saída de exemplo:
 
-| Campo | Tempo |
-|-------|----------|
-|`real` |  0m4.312s|
-|`user` |  0m1.204s|
-|`sys`  | 0m0.387s |
-
-| Campo  | Significado |
-|--------|-------------|
-| `real` | Tempo total decorrido no relógio (o mais relevante) |
-| `user` | Tempo de CPU em modo usuário |
-| `sys`  | Tempo de CPU em modo kernel (sistema) |
-
+| Campo | Tempo    |                     Significado                    |
+|-------|----------|----------------------------------------------------|
+|`real` |  0m4.312s| Tempo total decorrido no relógio (o mais relevante |
+|`user` |  0m1.204s| Tempo de CPU em modo usuário                       |
+|`sys`  | 0m0.387s | Tempo de CPU em modo kernel (sistema		|
 
 ---
 
