@@ -1,0 +1,35 @@
+00000000-00000fff : Reserved
+00001000-0009fbff : System RAM
+0009fc00-0009ffff : Reserved
+000a0000-000bffff : PCI Bus 0000:00
+000c0000-000c7fff : Video ROM
+000e2000-000efdff : Adapter ROM
+000f0000-000fffff : Reserved
+  000f0000-000fffff : System ROM
+00100000-dffeffff : System RAM
+  92600000-935fffff : Kernel code
+  93600000-94185fff : Kernel rodata
+  94200000-9447063f : Kernel data
+  94d32000-951fffff : Kernel bss
+dfff0000-dfffffff : ACPI Tables
+e0000000-fdffffff : PCI Bus 0000:00
+  e0000000-e0ffffff : 0000:00:02.0
+    e0000000-e0ffffff : vmwgfx probe
+  f0000000-f01fffff : 0000:00:02.0
+    f0000000-f01fffff : vmwgfx probe
+  f0200000-f021ffff : 0000:00:03.0
+    f0200000-f021ffff : e1000
+  f0400000-f07fffff : 0000:00:04.0
+    f0400000-f07fffff : vboxguest
+  f0800000-f0803fff : 0000:00:04.0
+  f0804000-f0804fff : 0000:00:06.0
+    f0804000-f0804fff : ohci_hcd
+  f0805000-f0805fff : 0000:00:0b.0
+    f0805000-f0805fff : ehci_hcd
+  f0806000-f0807fff : 0000:00:0d.0
+    f0806000-f0807fff : ahci
+fec00000-fec00fff : Reserved
+  fec00000-fec003ff : IOAPIC 0
+fee00000-fee00fff : Reserved
+fffc0000-ffffffff : Reserved
+100000000-11fffffff : System RAM

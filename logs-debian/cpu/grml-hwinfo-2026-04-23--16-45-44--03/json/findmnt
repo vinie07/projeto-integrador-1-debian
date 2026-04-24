@@ -1,0 +1,161 @@
+{
+   "filesystems": [
+      {
+         "target": "/",
+         "source": "/dev/sda1",
+         "fstype": "ext4",
+         "options": "rw,relatime,errors=remount-ro",
+         "children": [
+            {
+               "target": "/sys",
+               "source": "sysfs",
+               "fstype": "sysfs",
+               "options": "rw,nosuid,nodev,noexec,relatime",
+               "children": [
+                  {
+                     "target": "/sys/kernel/security",
+                     "source": "securityfs",
+                     "fstype": "securityfs",
+                     "options": "rw,nosuid,nodev,noexec,relatime"
+                  },{
+                     "target": "/sys/fs/cgroup",
+                     "source": "cgroup2",
+                     "fstype": "cgroup2",
+                     "options": "rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot"
+                  },{
+                     "target": "/sys/fs/pstore",
+                     "source": "pstore",
+                     "fstype": "pstore",
+                     "options": "rw,nosuid,nodev,noexec,relatime"
+                  },{
+                     "target": "/sys/fs/bpf",
+                     "source": "bpf",
+                     "fstype": "bpf",
+                     "options": "rw,nosuid,nodev,noexec,relatime,mode=700"
+                  },{
+                     "target": "/sys/kernel/debug",
+                     "source": "debugfs",
+                     "fstype": "debugfs",
+                     "options": "rw,nosuid,nodev,noexec,relatime"
+                  },{
+                     "target": "/sys/kernel/tracing",
+                     "source": "tracefs",
+                     "fstype": "tracefs",
+                     "options": "rw,nosuid,nodev,noexec,relatime"
+                  },{
+                     "target": "/sys/kernel/config",
+                     "source": "configfs",
+                     "fstype": "configfs",
+                     "options": "rw,nosuid,nodev,noexec,relatime"
+                  },{
+                     "target": "/sys/fs/fuse/connections",
+                     "source": "fusectl",
+                     "fstype": "fusectl",
+                     "options": "rw,nosuid,nodev,noexec,relatime"
+                  }
+               ]
+            },{
+               "target": "/proc",
+               "source": "proc",
+               "fstype": "proc",
+               "options": "rw,nosuid,nodev,noexec,relatime",
+               "children": [
+                  {
+                     "target": "/proc/sys/fs/binfmt_misc",
+                     "source": "systemd-1",
+                     "fstype": "autofs",
+                     "options": "rw,relatime,fd=40,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=2882",
+                     "children": [
+                        {
+                           "target": "/proc/sys/fs/binfmt_misc",
+                           "source": "binfmt_misc",
+                           "fstype": "binfmt_misc",
+                           "options": "rw,nosuid,nodev,noexec,relatime"
+                        }
+                     ]
+                  }
+               ]
+            },{
+               "target": "/dev",
+               "source": "udev",
+               "fstype": "devtmpfs",
+               "options": "rw,nosuid,relatime,size=1934348k,nr_inodes=483587,mode=755,inode64",
+               "children": [
+                  {
+                     "target": "/dev/pts",
+                     "source": "devpts",
+                     "fstype": "devpts",
+                     "options": "rw,nosuid,noexec,relatime,gid=5,mode=600,ptmxmode=000"
+                  },{
+                     "target": "/dev/shm",
+                     "source": "tmpfs",
+                     "fstype": "tmpfs",
+                     "options": "rw,nosuid,nodev,inode64"
+                  },{
+                     "target": "/dev/mqueue",
+                     "source": "mqueue",
+                     "fstype": "mqueue",
+                     "options": "rw,nosuid,nodev,noexec,relatime"
+                  },{
+                     "target": "/dev/hugepages",
+                     "source": "hugetlbfs",
+                     "fstype": "hugetlbfs",
+                     "options": "rw,nosuid,nodev,relatime,pagesize=2M"
+                  }
+               ]
+            },{
+               "target": "/run",
+               "source": "tmpfs",
+               "fstype": "tmpfs",
+               "options": "rw,nosuid,nodev,noexec,relatime,size=401576k,mode=755,inode64",
+               "children": [
+                  {
+                     "target": "/run/lock",
+                     "source": "tmpfs",
+                     "fstype": "tmpfs",
+                     "options": "rw,nosuid,nodev,noexec,relatime,size=5120k,inode64"
+                  },{
+                     "target": "/run/credentials/systemd-journald.service",
+                     "source": "tmpfs",
+                     "fstype": "tmpfs",
+                     "options": "ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap"
+                  },{
+                     "target": "/run/credentials/getty@tty1.service",
+                     "source": "tmpfs",
+                     "fstype": "tmpfs",
+                     "options": "ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,inode64,noswap"
+                  },{
+                     "target": "/run/user/1000",
+                     "source": "tmpfs",
+                     "fstype": "tmpfs",
+                     "options": "rw,nosuid,nodev,relatime,size=401576k,nr_inodes=100394,mode=700,uid=1000,gid=1000,inode64",
+                     "children": [
+                        {
+                           "target": "/run/user/1000/doc",
+                           "source": "portal",
+                           "fstype": "fuse.portal",
+                           "options": "rw,nosuid,nodev,relatime,user_id=1000,group_id=1000"
+                        },{
+                           "target": "/run/user/1000/gvfs",
+                           "source": "gvfsd-fuse",
+                           "fstype": "fuse.gvfsd-fuse",
+                           "options": "rw,nosuid,nodev,relatime,user_id=1000,group_id=1000"
+                        }
+                     ]
+                  }
+               ]
+            },{
+               "target": "/tmp",
+               "source": "tmpfs",
+               "fstype": "tmpfs",
+               "options": "rw,nosuid,nodev,nr_inodes=1048576,inode64"
+            },{
+               "target": "/home",
+               "source": "/dev/sda2",
+               "fstype": "ext4",
+               "options": "rw,relatime"
+            }
+         ]
+      }
+   ]
+}

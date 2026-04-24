@@ -1,0 +1,8 @@
+  *-cpu
+       product: 12th Gen Intel(R) Core(TM) i5-12450H
+       vendor: Intel Corp.
+       physical id: 2
+       bus info: cpu@0
+       version: 6.154.3
+       width: 64 bits
+       capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp x86-64 constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch pti tpr_shadow flexpriority ept vpid fsgsbase bmi1 avx2 bmi2 invpcid rdseed clflushopt arat vnmi md_clear flush_l1d arch_capabilities

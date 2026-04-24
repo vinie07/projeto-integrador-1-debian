@@ -1,0 +1,33 @@
+# CPU
+sysbench cpu --threads=3 --time=60 --cpu-max-prime=20000 --report-interval=10 run
+
+# MEMORY — escrita sequencial
+sysbench memory --threads=3 --memory-block-size=1K --memory-total-size=20G --memory-oper=write --memory-access-mode=seq run
+aa
+# MEMORY — leitura aleatória
+sysbench memory --threads=3 --memory-block-size=1K --memory-total-size=20G --memory-oper=read --memory-access-mode=rnd run
+a
+# FILEIO — preparar
+sysbench fileio --file-total-size=5G --file-num=5 prepare
+
+# FILEIO — rodar
+sysbench fileio --file-total-size=5G --file-num=5 --file-test-mode=rndrw --file-extra-flags=direct --threads=3 --time=10 run > io-5g-5-run.txt
+
+# FILEIO — limpar
+sysbench fileio --file-total-size=5G --file-num=5 cleanup >io-5g-5-cleanup.txt
+
+# THREADS
+sysbench threads --threads=3 --time=10 run 
+
+*MAIOR QUE A RAM --memory-total-size a, para evita rusar cahce
+
+--cpu-max-prime=N -> calucla numero primos ate n
+
+USADOS NO DEBIAN: usar --report-interval=1 segundo :)
+sysbench cpu --theads=3 --time=10 --cpu-max-prime=2000 --report-interval=1 run > cpu.txt
+sysbench memory --threads=3 --memory-block-size=1K --memory-total-size=20G --memory-oper=write --memory-access-mode=seq run > ram-write-seq.txt
+sysbench memory --threads=3 --memory-block-size=1K --memory-total-size=20G --memory-oper=read --memory-access-mode=rnd run > ram-read-rnd.txt
+sysbench fileio --file-total-size=5G --file-num=5 prepare > io-5g-5-prepare.txt
+sysbench fileio --file-total-size=5G --file-num=5 --file-test-mode=rndrw --file-extra-flags=direct --threads=3 --time=10 run > io-5g-5-run.txt
+sysbench threads --threads=3 --time=10 run > threads-10.txt
+

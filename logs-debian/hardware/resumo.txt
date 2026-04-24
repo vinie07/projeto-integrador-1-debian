@@ -1,0 +1,3 @@
+CPU: triple core 12th Gen Intel Core i5-12450H (-MCP-) speed: 2496 MHz
+Kernel: 6.12.73+deb13-amd64 x86_64 Up: 2h 17m Mem: 1.42/3.83 GiB (37.0%)
+Storage: 40 GiB (28.1% used) Procs: 266 Shell: Bash inxi: 3.3.38

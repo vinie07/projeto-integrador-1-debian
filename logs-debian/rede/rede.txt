@@ -1,0 +1,10 @@
+Linux 6.12.73+deb13-amd64 (debian-vini) 	23/04/2026 	_x86_64_	(3 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           5,16    0,00    2,37    0,34    0,00   92,13
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+sda              81,31       987,10      5037,53         0,00    8846714   45147968          0
+sr0               0,01         0,04         0,00         0,00        388          0          0
+
+

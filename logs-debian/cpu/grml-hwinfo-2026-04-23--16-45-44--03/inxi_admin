@@ -1,0 +1,131 @@
+System:
+  Host: debian-vini Kernel: 6.12.73+deb13-amd64 arch: x86_64 bits: 64
+    compiler: gcc v: 14.2.0 clocksource: tsc avail: kvm-clock,acpi_pm
+    parameters: BOOT_IMAGE=/boot/vmlinuz-6.12.73+deb13-amd64
+    root=UUID=9fa9c2e4-c394-472b-8d19-e282726b1b8d ro quiet
+  Desktop: Cinnamon v: 6.4.10 tk: GTK v: 3.24.49 wm: Muffin v: 6.4.1 tools:
+    avail: cinnamon-screensaver dm: LightDM v: 1.32.0 Distro: Debian GNU/Linux
+    13 (trixie)
+Machine:
+  Type: Virtualbox System: innotek GmbH product: VirtualBox v: 1.2 serial: N/A
+    Chassis: Oracle Corporation type: 1 serial: N/A
+  Mobo: Oracle model: VirtualBox v: 1.2 serial: N/A
+    uuid: c3cc42e4-3c98-cd48-8f8e-e27653e5951e BIOS: innotek GmbH v: VirtualBox
+    date: 12/01/2006
+Battery:
+  ID-1: BAT0 charge: 39.5 Wh (79.0%) condition: 50.0/50.0 Wh (100.0%)
+    volts: 10.0 min: 10.0 model: innotek 1 type: Unknown serial: N/A
+    status: not charging
+Memory:
+  System RAM: total: 4 GiB available: 3.83 GiB used: 1.36 GiB (35.4%)
+  RAM Report: message: No RAM data found using dmidecode.
+CPU:
+  Info: model: 12th Gen Intel Core i5-12450H bits: 64 type: MCP
+    arch: Alder Lake gen: core 12 level: v2 built: 2021+
+    process: Intel 7 (10nm ESF) family: 6 model-id: 0x9A (154) stepping: 3
+    microcode: N/A
+  Topology: cpus: 1x dies: 1 clusters: 3 cores: 3 smt: <unsupported> cache:
+    L1: 240 KiB desc: d-3x48 KiB; i-3x32 KiB L2: 3.8 MiB desc: 3x1.2 MiB
+    L3: 36 MiB desc: 3x12 MiB
+  Speed (MHz): avg: 2496 min/max: N/A cores: 1: 2496 2: 2496 3: 2496
+    bogomips: 14975
+  Flags: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+  Vulnerabilities:
+  Type: gather_data_sampling status: Not affected
+  Type: indirect_target_selection mitigation: Aligned branch/return thunks
+  Type: itlb_multihit status: KVM: Split huge pages
+  Type: l1tf mitigation: PTE Inversion; VMX: conditional cache flushes, SMT
+    disabled
+  Type: mds mitigation: Clear CPU buffers; SMT Host state unknown
+  Type: meltdown mitigation: PTI
+  Type: mmio_stale_data status: Not affected
+  Type: reg_file_data_sampling status: Vulnerable: No microcode
+  Type: retbleed status: Not affected
+  Type: spec_rstack_overflow status: Not affected
+  Type: spec_store_bypass status: Vulnerable
+  Type: spectre_v1 mitigation: usercopy/swapgs barriers and __user pointer
+    sanitization
+  Type: spectre_v2 mitigation: Retpolines; STIBP: disabled; RSB filling;
+    PBRSB-eIBRS: Not affected; BHI: Retpoline
+  Type: srbds status: Not affected
+  Type: tsa status: Not affected
+  Type: tsx_async_abort status: Not affected
+  Type: vmscape status: Not affected
+Graphics:
+  Device-1: VMware SVGA II Adapter driver: vmwgfx v: 2.20.0.0 ports:
+    active: Virtual-1 empty: Virtual-2, Virtual-3, Virtual-4, Virtual-5,
+    Virtual-6, Virtual-7, Virtual-8 bus-ID: 00:02.0 chip-ID: 15ad:0405
+    class-ID: 0300
+  Display: x11 server: X.Org v: 21.1.16 driver: X: loaded: vmware
+    unloaded: fbdev,modesetting,vesa dri: vmwgfx gpu: vmwgfx display-ID: :0
+    screens: 1
+  Screen-1: 0 s-res: 960x942 s-dpi: 96 s-size: 254x249mm (10.00x9.80")
+    s-diag: 356mm (14")
+  Monitor-1: Virtual-1 mapped: Virtual1 res: mode: 960x942 hz: 60
+    scale: 100% (1) size: N/A modes: max: 960x942 min: 640x480
+  API: EGL v: 1.5 platforms: device: 0 drv: vmwgfx device: 1 drv: swrast
+    gbm: drv: vmwgfx surfaceless: drv: vmwgfx x11: drv: vmwgfx inactive: wayland
+  API: OpenGL v: 4.5 compat-v: 4.1 vendor: vmware mesa v: 25.0.7-2
+    glx-v: 1.4 direct-render: yes renderer: SVGA3D; build: RELEASE; LLVM;
+    device-ID: 15ad:0405 memory: 1000 KiB unified: no
+  API: Vulkan v: 1.4.309 layers: 3 device: 0 type: cpu name: llvmpipe (LLVM
+    19.1.7 256 bits) driver: mesa llvmpipe v: 25.0.7-2 (LLVM 19.1.7)
+    device-ID: 10005:0000 surfaces: xcb,xlib
+  Info: Tools: api: eglinfo, glxinfo, vulkaninfo x11: xdriinfo, xdpyinfo,
+    xprop, xrandr
+Audio:
+  Device-1: Intel 82801AA AC97 Audio vendor: Dell driver: snd_intel8x0
+    v: kernel bus-ID: 00:05.0 chip-ID: 8086:2415 class-ID: 0401
+  API: ALSA v: k6.12.73+deb13-amd64 status: kernel-api
+    tools: alsactl,alsamixer,amixer
+  Server-1: PipeWire v: 1.4.2 status: n/a (root, process) with:
+    1: pipewire-pulse status: active 2: wireplumber status: active
+    tools: pw-cat,pw-cli,wpctl
+  Server-2: PulseAudio v: 17.0 status: off (using pipewire-pulse)
+    tools: pacat,pactl
+Network:
+  Device-1: Intel 82540EM Gigabit Ethernet driver: e1000 v: kernel port: d020
+    bus-ID: 00:03.0 chip-ID: 8086:100e class-ID: 0200
+  IF: enp0s3 state: up speed: 1000 Mbps duplex: full mac: 08:00:27:c5:ea:56
+  Device-2: Intel 82371AB/EB/MB PIIX4 ACPI type: network bridge
+    driver: piix4_smbus v: N/A modules: i2c_piix4 port: N/A bus-ID: 00:07.0
+    chip-ID: 8086:7113 class-ID: 0680
+  Info: services: NetworkManager,wpa_supplicant
+Drives:
+  Local Storage: total: 40 GiB used: 11.13 GiB (27.8%)
+  ID-1: /dev/sda maj-min: 8:0 vendor: VirtualBox model: VBOX HARDDISK
+    size: 40 GiB block-size: physical: 512 B logical: 512 B speed: 3.0 Gb/s
+    tech: N/A serial: VBe65de71d-4585546b fw-rev: 1.0 scheme: MBR
+  SMART: no SMART Message: A mandatory SMART command failed. Various
+    possible causes.
+Partition:
+  ID-1: / raw-size: 23.28 GiB size: 22.75 GiB (97.71%) used: 11.05 GiB (48.6%)
+    fs: ext4 block-size: 4096 B dev: /dev/sda1 maj-min: 8:1
+  ID-2: /home raw-size: 13.97 GiB size: 13.65 GiB (97.70%)
+    used: 82.1 MiB (0.6%) fs: ext4 block-size: 4096 B dev: /dev/sda2
+    maj-min: 8:2
+Swap:
+  Kernel: swappiness: 60 (default) cache-pressure: 100 (default) zswap: no
+  ID-1: swap-1 type: partition size: 2.75 GiB used: 0 KiB (0.0%)
+    priority: -2 dev: /dev/sda3 maj-min: 8:3
+USB:
+  Hub-1: 1-0:1 info: full speed or root hub ports: 12 rev: 2.0
+    speed: 480 Mb/s (57.2 MiB/s) lanes: 1 mode: 2.0 chip-ID: 1d6b:0002
+    class-ID: 0900
+  Hub-2: 2-0:1 info: full speed or root hub ports: 12 rev: 1.1
+    speed: 12 Mb/s (1.4 MiB/s) lanes: 1 mode: 1.1 chip-ID: 1d6b:0001
+    class-ID: 0900
+  Device-1: 2-1:2 info: VirtualBox USB Tablet type: HID
+    driver: hid-generic,usbhid interfaces: 1 rev: 1.1 speed: 12 Mb/s (1.4 MiB/s)
+    lanes: 1 mode: 1.1 power: 100mA chip-ID: 80ee:0021 class-ID: 0300
+Sensors:
+  Src: lm-sensors+/sys Message: No sensor data found using /sys/class/hwmon
+    or lm-sensors.
+Info:
+  Processes: 260 Power: uptime: 9m states: freeze,mem,disk suspend: s2idle
+    wakeups: 0 hibernate: shutdown avail: reboot,suspend,test_resume
+    image: 1.48 GiB services: csd-power,upowerd Init: systemd v: 257
+    default: graphical tool: systemctl
+  Packages: pm: dpkg pkgs: 2794 libs: 1327 tools: apt, apt-get,
+    gnome-software, synaptic Compilers: gcc: 14.2.0 Shell: grml-hwinfo (sudo)
+    default: Bash v: 5.2.37 running-in: grml-hwinfo inxi: 3.3.38

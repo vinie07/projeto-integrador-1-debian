@@ -1,0 +1,32 @@
+           CPU0       CPU1       CPU2       
+  0:         36          0          0   IO-APIC   2-edge      timer
+  1:       1986          0          0   IO-APIC   1-edge      i8042
+  8:          0          0          0   IO-APIC   8-edge      rtc0
+  9:          0          0          0   IO-APIC   9-fasteoi   acpi
+ 12:          0          0       2148   IO-APIC  12-edge      i8042
+ 14:          0          0          0   IO-APIC  14-edge      ata_piix
+ 15:          0          0        822   IO-APIC  15-edge      ata_piix
+ 18:          0       5332          0   IO-APIC  18-fasteoi   vmwgfx
+ 19:          0          0      15256   IO-APIC  19-fasteoi   ehci_hcd:usb1, enp0s3
+ 20:          0          0       5083   IO-APIC  20-fasteoi   vboxguest
+ 21:      29057          0          0   IO-APIC  21-fasteoi   ahci[0000:00:0d.0], snd_intel8x0
+ 22:         33          0          0   IO-APIC  22-fasteoi   ohci_hcd:usb2
+NMI:          0          0          0   Non-maskable interrupts
+LOC:     147128      62748     162217   Local timer interrupts
+SPU:          0          0          0   Spurious interrupts
+PMI:          0          0          0   Performance monitoring interrupts
+IWI:          0          0          2   IRQ work interrupts
+RTR:          0          0          0   APIC ICR read retries
+RES:       1769       1904       2244   Rescheduling interrupts
+CAL:      48182      77676      67051   Function call interrupts
+TLB:        494        426        447   TLB shootdowns
+TRM:          0          0          0   Thermal event interrupts
+THR:          0          0          0   Threshold APIC interrupts
+DFR:          0          0          0   Deferred Error APIC interrupts
+MCE:          0          0          0   Machine check exceptions
+MCP:          2          2          2   Machine check polls
+ERR:          0
+MIS:         20
+PIN:          0          0          0   Posted-interrupt notification event
+NPI:          0          0          0   Nested posted-interrupt event
+PIW:          0          0          0   Posted-interrupt wakeup event

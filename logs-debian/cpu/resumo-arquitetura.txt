@@ -1,0 +1,42 @@
+Arquitetura:                               x86_64
+Modo(s) operacional da CPU:                32-bit, 64-bit
+Tamanhos de endereço:                      39 bits physical, 48 bits virtual
+Ordem dos bytes:                           Little Endian
+CPU(s):                                    3
+Lista de CPU(s) on-line:                   0-2
+ID de fornecedor:                          GenuineIntel
+Nome do modelo:                            12th Gen Intel(R) Core(TM) i5-12450H
+Família da CPU:                            6
+Modelo:                                    154
+Thread(s) per núcleo:                      1
+Núcleo(s) por soquete:                     3
+Soquete(s):                                1
+Step:                                      3
+BogoMIPS:                                  4991,99
+Opções:                                    fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch pti tpr_shadow flexpriority ept vpid fsgsbase bmi1 avx2 bmi2 invpcid rdseed clflushopt arat vnmi md_clear flush_l1d arch_capabilities
+Virtualização:                             VT-x
+Fabricante do hipervisor:                  KVM
+Tipo de virtualização:                     completo
+cache de L1d:                              144 KiB (3 instâncias)
+cache de L1i:                              96 KiB (3 instâncias)
+cache de L2:                               3,8 MiB (3 instâncias)
+cache de L3:                               36 MiB (3 instâncias)
+Nó(s) de NUMA:                             1
+CPU(s) de nó0 NUMA:                        0-2
+Vulnerabilidade Gather data sampling:      Not affected
+Vulnerabilidade Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerabilidade Itlb multihit:             KVM: Mitigation: Split huge pages
+Vulnerabilidade L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT disabled
+Vulnerabilidade Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerabilidade Meltdown:                  Mitigation; PTI
+Vulnerabilidade Mmio stale data:           Not affected
+Vulnerabilidade Reg file data sampling:    Vulnerable: No microcode
+Vulnerabilidade Retbleed:                  Not affected
+Vulnerabilidade Spec rstack overflow:      Not affected
+Vulnerabilidade Spec store bypass:         Vulnerable
+Vulnerabilidade Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerabilidade Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+Vulnerabilidade Srbds:                     Not affected
+Vulnerabilidade Tsa:                       Not affected
+Vulnerabilidade Tsx async abort:           Not affected
+Vulnerabilidade Vmscape:                   Not affected
